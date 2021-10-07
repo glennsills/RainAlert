@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E9815E3-2EFF-484B-BFC1-27D6B178C88C}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainAlert.WeatherForecast", "RainAlert.WeatherForcast\RainAlert.WeatherForecast.csproj", "{C4C23F1E-098E-45CB-9E87-CBBD8B08DE8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainAlert.Tests", "RainAlert.Tests\RainAlert.Tests.csproj", "{47C5B414-1A1D-4274-AE42-5A3FCE63A9EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainAlert.Worker", "RainAlert.Worker\RainAlert.Worker.csproj", "{017FBCDC-866F-4CE5-A7CA-0D056AC417F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainAlert.Api", "RainAlert.Api\RainAlert.Api.csproj", "{3A12B246-AE73-4B91-BFE9-76FFDD1263BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainAlert.Web", "RainAlert.Web\RainAlert.Web.csproj", "{BAD1661C-831D-4088-8506-AC5098317513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C23F1E-098E-45CB-9E87-CBBD8B08DE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C23F1E-098E-45CB-9E87-CBBD8B08DE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C23F1E-098E-45CB-9E87-CBBD8B08DE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C23F1E-098E-45CB-9E87-CBBD8B08DE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C5B414-1A1D-4274-AE42-5A3FCE63A9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C5B414-1A1D-4274-AE42-5A3FCE63A9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C5B414-1A1D-4274-AE42-5A3FCE63A9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C5B414-1A1D-4274-AE42-5A3FCE63A9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017FBCDC-866F-4CE5-A7CA-0D056AC417F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017FBCDC-866F-4CE5-A7CA-0D056AC417F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017FBCDC-866F-4CE5-A7CA-0D056AC417F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017FBCDC-866F-4CE5-A7CA-0D056AC417F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A12B246-AE73-4B91-BFE9-76FFDD1263BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A12B246-AE73-4B91-BFE9-76FFDD1263BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A12B246-AE73-4B91-BFE9-76FFDD1263BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A12B246-AE73-4B91-BFE9-76FFDD1263BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD1661C-831D-4088-8506-AC5098317513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD1661C-831D-4088-8506-AC5098317513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD1661C-831D-4088-8506-AC5098317513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD1661C-831D-4088-8506-AC5098317513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEF3456B-0A8E-4CAF-B80C-D7276C9D3E6F}
+	EndGlobalSection
+EndGlobal
